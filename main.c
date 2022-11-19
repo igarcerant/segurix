@@ -14,8 +14,8 @@ int main (int argc,char ** argv)
 {
     int a, b, c;
     printf("hello, world!\n");
-    a = prompt("dime el primer numero:");
-    b = prompt("dime el segundo numero:");
+    a = prompt("Ingresar el primer numero:");
+    b = prompt("Ingresar el segundo numero:");
     c = a + b;
     printf("la suma de %d mas %d es igual a %d\n", a, b, c);
     return EXIT_SUCCESS;
